@@ -1,0 +1,95 @@
+  .nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: bisque;
+  }
+
+
+  body {
+    background-image: url("/assets/theodysseyonline.jpg");
+  }
+  
+  .nav-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-bar li {
+    margin: 0 10px;
+    display: inline-block;
+  }
+
+  .logo-image {
+    height: 40px;
+  }
+
+  h1, h3 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .first-content {
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: center;
+  }
+
+  .testimony-image {
+    height: 500px;
+    pag
+  }
+
+  .testimony {
+    flex-shrink: 3;
+  }
+
+  .contact-content {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 50px;
+    
+  }
+
+  .recipient-image-icon {
+    border-radius: 50%;
+    height: 50px;
+    padding: 10px;
+  }
+
+  .recipient {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .testimony-recipient {
+    padding: 10px;
+  }
+
+  .information {
+    display: grid;
+    justify-content: center;
+
+  }
+
+  .our-package {
+    background: aquamarine;
+    padding: 90px;
+  }
+
+  .package-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .package {
+   text-align: center;
+  }
